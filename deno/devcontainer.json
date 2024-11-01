@@ -1,0 +1,12 @@
+// For format details, see https://aka.ms/devcontainer.json
+{
+	"name": "Deno",
+	"dockerFile": "Dockerfile",
+	"customizations": {
+		"vscode": {
+			"extensions": [
+				"denoland.vscode-deno"
+			]
+		}
+	}
+}

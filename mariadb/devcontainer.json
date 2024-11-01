@@ -1,0 +1,8 @@
+// For format details, see https://aka.ms/devcontainer.json
+{
+	"name": "MariaDB",
+	"dockerComposeFile": "docker-compose.yml",
+	"service": "app",
+	"workspaceFolder": "/workspaces/${localWorkspaceFolderBasename}",
+	"forwardPorts": [3306]
+}
